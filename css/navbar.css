@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgb(36, 36, 36);
+    overflow: hidden;
+}
+
+.nav-element {
+    display: inline-block;
+}
+
+.link-text {
+    color:rgb(255, 255, 255);
+    text-decoration: inherit;
+    font-size: 20px;
+}
+
+.nav-element-container {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-element-container:hover {
+    background-color: rgb(36, 36, 36);
+}

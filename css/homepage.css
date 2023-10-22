@@ -1,0 +1,31 @@
+.homepage {
+    min-height: 250px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.head-el-1 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+.head-el-2 {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+.homepage-container-o {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+.homepage-container-i {
+    display: grid;
+    grid-template-rows: 5% 90% 5%;
+}
+
+.homepage-container-info {
+    background-color: rgb(180, 216, 228);
+    border: 1px solid rgb(180, 216, 228);
+    border-radius: 25px;
+    text-align: center;
+}

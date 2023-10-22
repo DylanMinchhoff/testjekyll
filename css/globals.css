@@ -1,0 +1,33 @@
+@import url(./homepage.css);
+@import url(./navbar.css);
+@import url(./contact.css);
+
+@font-face {
+    font-family: "noto-serf";
+    src: url(./fonts/Noto_Sans/NotoSans-Black.ttf) format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+* {
+    font-family: 'noto-serf';
+}
